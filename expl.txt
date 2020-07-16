@@ -1,0 +1,14 @@
+tsc <nume fisier ts>
+'creat automic compiler of typescript file
+touch tsconfig.json
+
+'if touch get error you must intall it'
+npm install touch-cli -g
+'the json have the next parameter to automatic compilation of the .ts file
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "watch": true
+  }
+}
+
